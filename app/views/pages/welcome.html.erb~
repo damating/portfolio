@@ -1,0 +1,48 @@
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="menu col-xs-8">
+        <ul>
+          <li><a href="#">Welcome</a></li>
+	  <li><a href="#">Portfolio</a></li>
+	  <li><a href="#">Blog</a></li>
+	  <li><a href="#">About</a></li>
+	  <li><a href="#">Contant</a></li>
+        </ul>
+      </div>
+
+      <div class="menu col-xs-4">
+        <div class="name">
+          <h1>Paula Grzesiak</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="main home">
+  <div class="jumbotron">
+    <div class="container">
+      <h2>Hello. My name is <span class="highlight">Paula Grzesiak</span> and I have creative ideas</h2>
+      <a class="btn right" href="#">View my Work</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <ul class="social_media">
+      <li>
+        <a class="twitter" href="#">twitter</a>
+      </li>
+      <li>
+        <a class="facebook" href="#">facebook</a>
+      </li>
+      <li>
+        <a class="linkedin" href="#">linkedin</a>
+      </li>
+    </ul>
+      <p>@ 2015 Paula Grzesiak</p>
+  </div>
+</div>

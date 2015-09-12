@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  
+  <script src="//code.jquery.com/jquery-latest.min.js"></script>
+  <script src="//unslider.com/unslider.min.js"></script>
+  
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="menu col-xs-8">
+        <ul>
+          <li><a href="#"><%= link_to 'Welcome page', root_path %></a></li>
+	  <li><a href="#"><%= link_to 'Portfolio', portfolio_path %></a></li>
+	  <li><a href="#">Blog</a></li>
+	  <li><a href="#">About</a></li>
+	  <li><a href="#">Contant</a></li>
+        </ul>
+      </div>
+
+      <div class="menu col-xs-4">
+        <div class="name">
+          <h1>Paula Grzesiak</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<%= yield %>
+
+<div class="footer">
+  <div class="container">
+    <ul class="social_media">
+      <li>
+        <a class="twitter" href="#">twitter</a>
+      </li>
+      <li>
+        <a class="facebook" href="#">facebook</a>
+      </li>
+      <li>
+        <a class="linkedin" href="#">linkedin</a>
+      </li>
+    </ul>
+      <p>@ 2015 Paula Grzesiak</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+<script>
+  $(function() {
+      $('.banner').unslider();
+  });
+</script>
